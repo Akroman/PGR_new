@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "es6",
+        "target": "es5",
+        "downlevelIteration": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "moduleResolution": "node"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

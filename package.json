@@ -1,0 +1,32 @@
+{
+    "name": "point-cloud-renderer",
+    "version": "1.0.0",
+    "author": "Matěj Hlávka",
+    "dependencies": {
+        "dat.gui": "^0.7.9",
+        "gl-matrix": "3.0.0",
+        "light-server": "^2.9.1",
+        "loaders.gl": "^0.3.5",
+        "lodash": "^4.17.21",
+        "popper.js": "^1.16.1",
+        "three": "^0.147.0",
+        "twgl.js": "^4.19.1",
+        "util": "^0.12.5"
+    },
+    "devDependencies": {
+        "@types/dat.gui": "^0.7.7",
+        "@types/lodash": "^4.14.191",
+        "@types/three": "^0.146.0",
+        "file-loader": "^6.2.0",
+        "raw-loader": "^4.0.2",
+        "ts-loader": "^9.4.1",
+        "typescript": "^4.9.3",
+        "webpack": "^5.28.0",
+        "webpack-cli": "^4.6.0"
+    },
+    "scripts": {
+        "build": "webpack",
+        "start": "light-server -s ./dist",
+        "run": "npm run-script build && npm run-script start"
+    }
+}
